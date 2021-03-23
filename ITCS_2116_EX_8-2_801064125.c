@@ -10,8 +10,8 @@ int main()
     int y [] = {-1,0,1};
     int * x1 = NULL;
     int * y1 = NULL;
-    printf("%d\n",contains_negative(x, 3,x1));
-    printf("%d\n",contains_negative(y, 3,y1));
+    printf("%d\n",contains_negative(x, 3,&x1));
+    printf("%d\n",contains_negative(y, 3,&y1));
 
 
 }
